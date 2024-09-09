@@ -1,0 +1,69 @@
+<html>
+<head>
+
+<link href="style.css" rel="stylesheet" />
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<!--body of the html file-->
+<body style="background:rgb(197, 161, 45)">
+<section>
+<div class="outer">
+<br>
+  
+  <table>
+    <tr>
+      <td colspan="4" class="display-box">
+        <div class="display">
+        <p id="prefix" style="text-align:right;"></p>
+        <br>
+        <h2 id="res" style="text-align:right;" ></h2>
+      </div>
+    </td>
+    </tr>
+    <tr>
+      <td class="operator" onclick="obracket()" id="obr">(</td>
+      <td class="operator" onclick="cbracket()" id="cbr">)</td>
+      <td class="operator" onclick="percent()" id="percent">%</td>
+      <td class="operator" onclick="ac()" id="ac">AC</td>
+    </tr>
+    <tr>
+      <td id="seven" onclick="seven()">7</td>
+      <td onclick="eight()" id="eight">8</td>
+      <td onclick="nine()" id="nine">9</td>
+      <td class="operator" id="div" onclick="div()">÷</td>
+    </tr>
+    <tr>
+      <td onclick="four()" id="four">4</td>
+      <td onclick="five()" id="five">5</td>
+      <td onclick="six()" id="six">6</td>
+      <td class="operator" onclick="prod()" id="prod">x</td>
+    </tr>
+    <tr>
+      <td onclick="one()" id="one">1</td>
+      <td onclick="two()" id="two">2</td>
+      <td onclick="three()" id="three">3</td>
+      <td class="operator" id="minus" onclick="minus()">-</td>
+    </tr>
+      <tr>
+      <td onclick="zero()" id="zero">0</td>
+      <td onclick="dot()" id="dot">.</td>
+      <td style="background:rgb(92,62,140)" onclick="res()">=</td>
+      <td class="operator" id="plus" onclick="plus()">+</td>
+    </tr>
+ </table>
+    
+ <br><br>
+ </div>  
+</section>
+<script type="text/javascript" src="arth.js">
+  function ravi()
+  {
+    alert("ravi function called");
+  }
+</script>
+</body>
+
+</html>

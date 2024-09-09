@@ -1,0 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing : border-box;
+}
+
+tr td{
+    width:24%
+    height:30px;
+    padding : 10px 30px 10px 35px;
+    background:rgb(0,28,67);
+    color:white;
+    border:3px inset rgb(14, 14, 14);
+    border-radius:10px;
+  }
+
+  tr td:active{
+    border:3px outset rgb(14, 14, 14);
+
+  }
+
+  table{
+    width:400px;
+    margin:10px auto;
+    border:5px solid rgb(184, 177, 181);
+    border-radius:12px;
+    border-collapse: separate;
+    background-color: black;
+
+  }
+  
+  .operator
+  {
+    background:rgb(50,100,124);
+ }
+ td:active
+ {
+   background:rgb(220, 25, 15);
+}
+ .div{
+  border:5px solid white;
+  border-radius:8px;
+}
+
+
+div.display{
+  width:400px;
+  height:70px;
+  background-color: rgb(12, 12, 12);
+  color:rgb(223, 209, 209);
+  border:2px solid bisque;
+  border-radius: 5px;
+  font-size: large;
+  font-weight:bold;
+ line-spacing: 30px;
+}
+.display-box,.display-box:active{
+  padding:5px;
+  background-color: rgb(12, 12, 12);
+}
+
